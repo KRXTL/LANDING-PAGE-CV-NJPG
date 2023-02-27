@@ -13,13 +13,14 @@
     <section class="inicio" id="inicio">
         <div class="contenido-seccion">
             <header>
-                <div class="nav-bar">
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <nav id="nav" class="nav">
                     <a href="#inicio">Inicio</a>
                     <a href="#sobremi">Sobre Mi</a>
                     <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
                     <a href="#contacto">Contacto</a>
                 </nav>
                 <div class="logo">
@@ -28,7 +29,7 @@
             </header>
             <div class="info">
                 <h1>NAHUEL JP GONZALEZ</h1>
-                <h2>DISEÑADOR , XXXXXX , LOREM</h2>
+                <h2>PROGRAMADOR FRONT-END</h2>
                 <div class="redes">
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -49,24 +50,24 @@
             <h3>Detalles personales</h3>
             
 
-            <p class="especial">Me Dedico a lo que tenga que dedicarme rey.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores temporibus, ducimus eveniet cupiditate libero reiciendis magni, sapiente commodi doloremque molestiae incidunt harum magnam quia aliquam omnis. Cumque, temporibus similique.</p>
+            <p class="especial">Mi trabajo es diseñar y desarrolar sitios/paginas webs!</p>
+            <p>Aun me encuentro aprendiendo todo tipo de programacion , es algo de nunca acabar pero por supuesto , es un mundo super interesante!</p>
 
             <div class="fila">
                 <div class="col">
                     <i class="fa-solid fa-user"></i>
                     <span class="titulo-detalle">Perfil</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure in libero fuga ducimus incidunt nam veniam accusantium magnam impedit ut animi, a accusamus quaerat vel sapiente, unde quidem maiores distinctio.</p>
+                    <p>Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales , siempre tengo la mejor disposición para la realización de mis tareas , busco un puesto laboral desafiante donde pueda continuar aprendiendo!</p>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-location-dot"></i>
                     <span class="titulo-detalle">Ubicacion</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure in libero fuga ducimus incidunt nam veniam accusantium magnam impedit ut animi, a accusamus quaerat vel sapiente, unde quidem maiores distinctio.</p>
+                    <p>Soy nacido y criado en la ciudad de La Plata , Capital de Buenos Aires!</p>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-flag"></i>
                     <span class="titulo-detalle">Intereses</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure in libero fuga ducimus incidunt nam veniam accusantium magnam impedit ut animi, a accusamus quaerat vel sapiente, unde quidem maiores distinctio.</p>
+                    <p>Poseo disponibilidad horaria Full time , amaria trabajar remoto , me gusta mucho lo que es el diseño y actualmente estoy aprendiendo desarrollo para app's en Android!</p>
                 </div>
             </div>
         </div>
@@ -80,11 +81,11 @@
 
             <div class="fila">
                 <div class="col">
-                    <span>HTML/CSS</span>
+                    <span>HTML</span>
                     <div class="cont-barra">
                         <div class="barra" id="html">
-                            <!--Completar con JS con la clase "e".-->
-                            <div class="e"></div>
+                            <!--Completar con JS con la clase "e". que rellena en cuadrados para colorear la barra-->
+
                         </div>
                         <span>80%</span>
                     </div>
@@ -93,34 +94,38 @@
                     <span>JAVASCRIPT</span>
                     <div class="cont-barra">
                         <div class="barra" id="javascript">
-                            <div class="e"></div>
-                        </div>
-                        <span>20%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>PHOTOSHOP</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="photoshop">
-                            <div class="e"></div>
-                        </div>
-                        <span>60%</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <span>FRAMEWORKS</span>
-                    <div class="cont-barra">
-                        <div class="barra" id="frameworks">
-                            <div class="e"></div>
+                        
                         </div>
                         <span>40%</span>
                     </div>
                 </div>
+            </div>   
+            <div class="fila">    
                 <div class="col">
-                    <span>CAPACIDAD DE APRENDER</span>
+                    <span>CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="css">
+                          
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div> 
+                <div class="col">
+                    <span>DISPOSICION</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="disposicion">
+                          
+                        </div>
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>CAPACIDAD</span>
                     <div class="cont-barra">
                         <div class="barra" id="capacidad">
-                            <div class="e"></div>
+                          
                         </div>
                         <span>100%</span>
                     </div>
@@ -129,13 +134,13 @@
                     <span>ADAPTACION</span>
                     <div class="cont-barra">
                         <div class="barra" id="adaptacion">
-                            <div class="e"></div>
+                      
                         </div>
                         <span>100%</span>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>    
     </section>
 
     <!--Resumen-->
@@ -152,29 +157,100 @@
                                 <h3>2010 - 2016</h3>
                             </td>
                             <td rowspan="2" class="descripcion">
-                                Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.
+                              Mi educacion secundaria termino en este secundario , aun asi , estudie durante los 6 años en una de enseñanza tecnica!
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h4>Bachiller</h4>
-                                <p>E.E.S N°62</p>
+                                <h4>E.E.S N°62</h4>
+                                <p>Bachiller Periodismo</p>
                             </td>
                         </tr>
                     </table>
                     <table>
                         <tr>
                             <td class="datos">
-                                <h3>2010 - 2016</h3>
+                                <h3>2021 y Actualmente</h3>
                             </td>
                             <td rowspan="2" class="descripcion">
-                                Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.
+                                ​Me encuentro estudiando la carrera de Analista Programador Universitario(APU).
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h4>Bachiller</h4>
-                                <p>E.E.S N°62</p>
+                                <h4>UNLP INFORMATICA</h4>
+                                <p>Analista Programador Universitario</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Me anime a aventurarme en este maravilloso mundo , agradezco que este curso fuera parte mi puerta de entrada!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Argentina Programa 4.0(Ticmas)</h4>
+                                <p>Programador Front-End.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2017-2019</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Trabaje un tiempo en este lugar despues de terminar mi secundario , buen ambiente laboral , actualmente no existe..
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Cla-Ce(Muebleria</h4>
+                                <p> Atencion al cliente en Salon.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                               Aprendi un poco sobre el mundo de las redes y como funcionan , nuestra tarea se encargaba de colocar reparar y asistir a los usuarios de la compañia , compañia que ofrece servicios informaticos.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Wi-Sim</h4>
+                                <p>Tecnico Instalador/reparador</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020 y 2021</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                El trabajo en ambas consecionarias era algo mixto , ya que se vendia / asesoraba y tambien se realizaban tareas de tipo administrativas , trabajamos con sistemas de datos como CRM o RUN , incluso con redes sociales!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Galia Auto Haus Concesionario VW(2021) <br>
+                                    Ar Cars Concesionario(2020)</h4>
+                                <p>Asistencia administrativa integral a Gerencia. <br>
+                                    Seguimiento de Agenda. <br>
+                                    Asesoramiento a Clientes. <br>
+                                    Ventas.</p>
                             </td>
                         </tr>
                     </table>
@@ -182,5 +258,35 @@
             </div>
         </div>
     </section>
+    <!--Contacto-->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Contactate conmigo ahora!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Telefono 
+                    </h2>
+                    <span class="info-contacto">(+54) 221 - 6717711</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo Electronico
+                    </h2>
+                    <span class="info-contacto">nahuel.jp.gonzalez.97@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-brands fa-github"></i> GITHUB
+                    </h2>
+                    <span class="info-contacto">Aun no esta disponible.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
