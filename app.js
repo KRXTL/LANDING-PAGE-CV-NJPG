@@ -64,13 +64,13 @@ function efectoHabilidades(){
             pintarBarra(css, 11, 2, intervalCss);
         },100);
         const intervalCapacidad = setInterval(function(){
-            pintarBarra(capacidad, 15, 3, intervalCapacidad);
+            pintarBarra(capacidad, 17, 3, intervalCapacidad);
         },100);
         const intervalAdaptacion = setInterval(function(){
-            pintarBarra(adaptacion, 16, 4, intervalAdaptacion);
+            pintarBarra(adaptacion, 17, 4, intervalAdaptacion);
         },100);
         const intervalDisposicion = setInterval(function(){
-            pintarBarra(disposicion, 11, 5, intervalDisposicion);
+            pintarBarra(disposicion, 17, 5, intervalDisposicion);
         },100);
     }
 }
